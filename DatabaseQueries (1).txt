@@ -1,0 +1,34 @@
+For user:
+
+insert into user_details(firstname,lastname,email,password,phone,address) values('User','One','user1@gmail.com','User@1',9876543210,'AndhraPradesh');
+insert into user_details(firstname,lastname,email,password,phone,address) values('User','Two','user2@gmail.com','User@2',9876543211,'TamilNadu');
+insert into user_details(firstname,lastname,email,password,phone,address) values('User','Three','user3@gmail.com','User@3',9876543212,'Odisha');
+insert into user_details(firstname,lastname,email,password,phone,address) values('User','Four','user4@gmail.com','User@4',9876543213,'Maharashtra');
+insert into user_details(firstname,lastname,email,password,phone,address) values('User','Five','user5@gmail.com','User@5',9876543214,'Jaipur');
+insert into user_details(firstname,lastname,email,password,phone,address) values('User','Six','user6@gmail.com','User@6',9876543215,'Karnataka');
+insert into user_details(firstname,lastname,email,password,phone,address) values('User','Seven','user7@gmail.com','User@7',9876543216,'UttarPradesh');
+
+
+
+for Books:
+
+insert into books(name,author,price,category) values('The Kite Runner','Khaled Hossieni',470,'Action');
+insert into books(name,author,price,category) values('Life Of Pi','Yann Martel',220,'Thriller');
+insert into books(name,author,price,category) values('Jane Eyre','Charlotte Bronte',350,'Action');
+insert into books(name,author,price,category) values('Malgudi Days','RK Narayan',700,'Drama');
+insert into books(name,author,price,category) values('The Happy Prince','Oscar Wilde',690,'Thriller');
+insert into books(name,author,price,category) values('Ponniyan Selvan','Kalki Krishnamurthy',850,'Historical');
+insert into books(name,author,price,category) values('Meena','Yaddalapudi Sulochana Rani',450,'Drama');
+
+
+
+For review;
+
+insert into review(name,bookname,rating,review) values('User One','Life Of Pi',4,'Good');
+insert into review(name,bookname,rating,review) values('User Seven','Meena',5,'Funtabulous');
+insert into review(name,bookname,rating,review) values('User Six','Jane Eyre',2,'Poor Writing');
+insert into review(name,bookname,rating,review) values('User Three','Meena',5,'Way of story telling was excellent');
+insert into review(name,bookname,rating,review) values('User Two','Ponniyan Selvan',5,'Twists were amazing');
+insert into review(name,bookname,rating,review) values('User Two','Malgudi Days',4,'Hardly written reality');
+insert into review(name,bookname,rating,review) values('User Five','The Kite Runner',4,'Good');
+insert into review(name,bookname,rating,review) values('User Four','The Happy Prince',4,'Nice');
